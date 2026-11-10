@@ -6,6 +6,8 @@ APCV 498 Senior Capstone, University of Arizona. Elizabeth Hadik-Barkoczy.</p>
 
 <p align="center"><a href="https://hadik-uofa.github.io/TagAlert">Project website</a> ·
 <a href="docs/files/TagAlert_Final_Report.pdf">Final report (PDF)</a> ·
+<a href="docs/files/TagAlert_Capstone_Presentation.pdf">Slides</a> ·
+<a href="docs/files/TagAlert_Capstone_Poster.pdf">Poster</a> ·
 <a href="docs/files/TagAlert_Test_Results.xlsx">Test results</a> ·
 <a href="logs/">Test logs</a></p>
 
@@ -75,7 +77,7 @@ app/TagAlert/      Swift source (SwiftUI, Core Bluetooth, Core Motion), Info.pli
 app/Sounds/        Four alert sounds made for the project
 logs/              21 CSV test logs (nearby device names redacted)
 tools/             analyze_log.py, recomputes the reported results
-docs/              Project website (GitHub Pages), report, test results, screenshots
+docs/              Project website (GitHub Pages), report, slides, poster, test results, screenshots
 branding/          Logo and app icon
 ```
 
