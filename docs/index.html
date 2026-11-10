@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TagAlert: Is there an AirTag following me?</title>
+<meta name="description" content="TagAlert is an iPhone app that finds nearby Apple AirTags and warns when one is traveling with you. APCV 498 capstone, University of Arizona.">
+<link rel="icon" href="assets/mark.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #04094E; --navy2: #0B1266; --ink: #0E1430; --cyan: #5CE6F5; --amber: #F5B33E;
+    --red: #E5484D; --paper: #F6F8FC; --muted: #5B6380; --line: #DDE3EF;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: Poppins, system-ui, -apple-system, Segoe UI, sans-serif; color: var(--ink); background: var(--paper); line-height: 1.6; }
+  a { color: #0A66C2; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+  header { background: radial-gradient(1200px 600px at 20% 0%, var(--navy2), var(--navy)); color: #fff; overflow: hidden; position: relative; }
+  header .wrap { padding-top: 56px; padding-bottom: 72px; position: relative; z-index: 1; }
+  .rings { position: absolute; right: -160px; top: -120px; width: 620px; height: 620px; z-index: 0; opacity: .35; }
+  .rings span { position: absolute; inset: 0; border: 2px solid var(--cyan); border-radius: 50%; animation: ping 4s linear infinite; }
+  .rings span:nth-child(2) { animation-delay: 1.33s; } .rings span:nth-child(3) { animation-delay: 2.66s; }
+  @keyframes ping { from { transform: scale(.15); opacity: 1; } to { transform: scale(1); opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .rings span { animation: none; } .rings span:nth-child(1){transform:scale(.4)} .rings span:nth-child(2){transform:scale(.7)} }
+  .lockup { width: 300px; max-width: 70%; display: block; margin-bottom: 40px; }
+  h1 { font-size: clamp(2rem, 5vw, 3.3rem); line-height: 1.12; margin: 0 0 16px; font-weight: 700; max-width: 760px; }
+  h1 em { font-style: normal; color: var(--cyan); }
+  .lede { font-size: 1.15rem; font-weight: 300; max-width: 640px; margin: 0 0 28px; color: #D7DCF5; }
+  .btns a { display: inline-block; margin: 0 10px 10px 0; padding: 11px 20px; border-radius: 999px; font-weight: 600; text-decoration: none; font-size: .95rem; }
+  .btn-main { background: var(--cyan); color: var(--navy); }
+  .btn-ghost { border: 1.5px solid rgba(255,255,255,.5); color: #fff; }
+  .meta { font-size: .85rem; color: #AEB5DA; margin-top: 18px; }
+  section { padding: 64px 0; border-bottom: 1px solid var(--line); }
+  h2 { font-size: 1.75rem; margin: 0 0 8px; }
+  .kicker { text-transform: uppercase; letter-spacing: .12em; font-size: .75rem; font-weight: 600; color: var(--muted); margin: 0 0 6px; }
+  .sub { color: var(--muted); max-width: 720px; margin: 0 0 32px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px; }
+  .stat { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 20px; }
+  .stat b { display: block; font-size: 2rem; line-height: 1.1; color: var(--navy); }
+  .stat span { font-size: .9rem; color: var(--muted); }
+  .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; counter-reset: s; }
+  .step { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 20px; position: relative; }
+  .step::before { counter-increment: s; content: counter(s); display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--navy); color: var(--cyan); font-weight: 700; margin-bottom: 10px; }
+  .step h3 { margin: 0 0 6px; font-size: 1.05rem; }
+  .step p { margin: 0; font-size: .93rem; color: #3A4262; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .86em; background: #EAEFF8; padding: 1px 5px; border-radius: 4px; word-break: break-all; }
+  .levels { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .lvl { background: #fff; border-radius: 14px; padding: 20px; border: 1px solid var(--line); border-left: 6px solid #9AA3BF; }
+  .lvl.m { border-left-color: var(--amber); } .lvl.h { border-left-color: var(--red); }
+  .lvl h3 { margin: 0 0 4px; }
+  .note { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; margin-top: 16px; font-size: .95rem; }
+  figure { margin: 0 0 36px; }
+  figure img { width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--line); background: #fff; }
+  figcaption { font-size: .9rem; color: var(--muted); margin-top: 10px; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  @media (max-width: 760px) { .two { grid-template-columns: 1fr; } }
+  .key { background: var(--navy); color: #fff; border-radius: 18px; padding: 32px; }
+  .key h2 { color: #fff; } .key p { color: #D7DCF5; max-width: 760px; }
+  .key .pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 20px; }
+  .key .pair div { background: rgba(255,255,255,.07); border-radius: 12px; padding: 18px; }
+  .key .pair b { font-size: 1.6rem; color: var(--cyan); display: block; }
+  .key .pair div:last-child b { color: var(--amber); }
+  table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 14px; overflow: hidden; border: 1px solid var(--line); font-size: .93rem; }
+  th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: #EEF2FA; font-weight: 600; }
+  ul.limits { padding-left: 20px; } ul.limits li { margin-bottom: 6px; }
+  .downloads a { display: block; background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; margin-bottom: 10px; text-decoration: none; color: var(--ink); font-weight: 600; }
+  .downloads a span { display: block; font-weight: 400; font-size: .88rem; color: var(--muted); }
+  footer { padding: 40px 0 60px; font-size: .85rem; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="rings" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="wrap">
+    <img class="lockup" src="assets/lockup.png" alt="TagAlert">
+    <h1>Is there an AirTag following me? <em>Find out now.</em></h1>
+    <p class="lede">TagAlert is an iPhone app that finds nearby Apple AirTags in seconds and warns when one is traveling with you, without using your location.</p>
+    <div class="btns">
+      <a class="btn-main" href="files/TagAlert_Final_Report.pdf">Read the report</a>
+      <a class="btn-ghost" href="https://github.com/Hadik-UofA/TagAlert">Source on GitHub</a>
+    </div>
+    <p class="meta">APCV 498 Senior Capstone, University of Arizona · Elizabeth Hadik-Barkoczy · Tested November 1 to 9, 2026</p>
+  </div>
+</header>
+
+<main>
+<section>
+  <div class="wrap">
+    <p class="kicker">The problem</p>
+    <h2>A planted tag can follow you for hours before it makes a sound</h2>
+    <p class="sub">An AirTag is the size of a coin. Apple's protections help, but a tag separated from its owner can wait 8 to 24 hours before it beeps. TagAlert is for the moment you need an answer: open it, and within seconds you know what is near you; within a minute or two, whether it is moving with you.</p>
+    <div class="stats">
+      <div class="stat"><b>10.4 s</b><span>median time to confirm an AirTag (21 confirmations)</span></div>
+      <div class="stat"><b>123 s</b><span>to High in the final walk, after 148 m, with the tag in a pocket</span></div>
+      <div class="stat"><b>0</b><span>alerts in 7 stationary tests, the longest 47 minutes</span></div>
+      <div class="stat"><b>26 / 27</b><span>beep commands accepted by the user's tags, separated from their owner</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">How it works</p>
+    <h2>iOS hides the AirTag signal, so TagAlert knocks on the door</h2>
+    <p class="sub">In every scan logged, iOS reported zero Apple Find My data, even with a tag a meter away. To an app, an AirTag is just an unnamed Bluetooth device. TagAlert checks each one directly.</p>
+    <div class="steps">
+      <div class="step"><h3>Queue</h3><p>Every unnamed device seen in a scan joins a probe queue, strongest signal first, so a tag on your body is checked early.</p></div>
+      <div class="step"><h3>Connect</h3><p>A brief connection: 6 s for a strong device, 10 s for a weak one, with retries that back off at 10, 20 and 40 s.</p></div>
+      <div class="step"><h3>Ask for one service</h3><p>TagAlert requests only <code>7DFC9000-7D1C-4951-86AA-8D9728F8D66C</code>, the AirTag's service. The check takes about 1 to 4 seconds.</p></div>
+      <div class="step"><h3>Decide and disconnect</h3><p>Offers the service: it is an AirTag. Otherwise it is ignored. TagAlert never pairs with or changes the device.</p></div>
+    </div>
+    <p class="note">The method follows the <a href="https://github.com/seemoo-lab/AirGuard-iOS">AirGuard</a> research project at TU Darmstadt, which identified this service by reverse engineering. TagAlert's code is an independent implementation in Swift.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Threat levels</p>
+    <h2>Nearby is not the same as following</h2>
+    <p class="sub">Unknown AirTags turned up on 4 of 7 test walks through an ordinary neighborhood. An app that alarms at every one gets deleted, so TagAlert asks whether a tag is moving with you, using the step counter and never your location.</p>
+    <div class="levels">
+      <div class="lvl"><h3>Low</h3><p>Seen under 1 minute, or not moving with you.</p></div>
+      <div class="lvl m"><h3>Medium</h3><p>Seen 1 to 2 minutes and moving with you. Notification.</p></div>
+      <div class="lvl h"><h3>High</h3><p>Seen 2 minutes or more and moving with you. Notification, then a one-time offer to make the tag beep.</p></div>
+    </div>
+    <p class="note"><b>Moving with you</b> means 50 m walked (or 60 s in a vehicle) between the tag's first and latest sighting, seen in at least 60% of scans over at least 4 cycles, and seen in the last 25 s. Signal strength is not used: two tags side by side read about 15 dB apart.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">The app in the field</p>
+    <h2>Final walking test, build 6b</h2>
+    <figure>
+      <img src="assets/fig_b7.png" alt="Four TagAlert screens from walking test B7 showing a tag going from Low to Medium to High" loading="lazy">
+      <figcaption>(a) 10 s: the tag in the pocket is confirmed at Low. (b) 65 s: it has moved 63 m with the user but has been seen for under a minute, so it stays Low. (c) 75 s: Medium at 77 m, with notification. (d) 137 s: High at 159 m, after the beep was sent.</figcaption>
+    </figure>
+    <div class="two">
+      <figure>
+        <img src="assets/fig_prompt.png" alt="Find This Tag prompt and session summary" loading="lazy">
+        <figcaption>The one-time Find This Tag? prompt at High asks before beeping, because a beep could tell a nearby planter the tag was found.</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/fig_before.png" alt="Earlier build rating three stationary tags as Medium" loading="lazy">
+        <figcaption>Before the movement check: an earlier build rated three tags at home Medium, though none was traveling with the user. The final build kept them at Low.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="key">
+      <p class="kicker" style="color:#AEB5DA">Key finding</p>
+      <h2>The beep works exactly where it matters</h2>
+      <p>Same table, strong signal. Apple's tags play their sound for a stranger only when separated from their owner, which is the case for a planted tag. The limit cuts both ways: a planter nearby with their phone cannot be alerted by the beep either.</p>
+      <div class="pair">
+        <div><b>Beeped first try</b>Two tags with their owner away</div>
+        <div><b>Refused 3 of 3</b>A tag whose owner's phone was in the house (the same tag beeped the next morning with the owner away)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Results</p>
+    <h2>Walking tests</h2>
+    <p class="sub">One tag in a pocket, the same residential loop. Each rule change was driven by a specific log; after the fixes in B2 and B3, the last four walks had no false alerts.</p>
+    <table>
+      <thead><tr><th>Walk</th><th>Build</th><th>Confirmed</th><th>Medium</th><th>High</th><th>False alerts</th></tr></thead>
+      <tbody>
+        <tr><td>B1</td><td>5n</td><td>94 s</td><td>171 s / 196 m</td><td>stopped first</td><td>0</td></tr>
+        <tr><td>B2</td><td>5o</td><td>6.5 s</td><td>96 s / 117 m</td><td>stopped first</td><td>1, fixed in 5p</td></tr>
+        <tr><td>B3</td><td>5r</td><td>6.0 s</td><td>71 s / 67 m</td><td>stopped first</td><td>1, fixed in 5s</td></tr>
+        <tr><td>B4</td><td>5s</td><td>8.9 s</td><td>62 s / 58 m</td><td>306 s / 380 m (5-min rule)</td><td>0</td></tr>
+        <tr><td>B5</td><td>5t</td><td>7.1 s</td><td>71 s / 73 m</td><td>153 s / 179 m (2.5-min rule)</td><td>0</td></tr>
+        <tr><td>B6</td><td>6a</td><td>28 s</td><td>87 s / 93 m</td><td>179 s / 158 m (2.5-min rule)</td><td>0</td></tr>
+        <tr><td>B7</td><td>6b</td><td>6.1 s</td><td>72 s / 77 m</td><td>123 s / 148 m (2-min rule)</td><td>0</td></tr>
+      </tbody>
+    </table>
+    <p class="note"><b>Battery:</b> 13% in 47 minutes of continuous scanning with the screen on, about 17% per hour, on an iPhone SE (2nd gen). Screen use is included, so the app's own share is lower. Built for a check, not all-day monitoring.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Limits</p>
+    <h2>What TagAlert does not do</h2>
+    <ul class="limits">
+      <li>It works only while the app is open; iOS does not deliver these scans to a suspended app.</li>
+      <li>Tested on one phone, one home and one route, with three to four AirTags over nine days.</li>
+      <li>iOS hides whether a tag is with its owner, so a stranger's tag that genuinely rides your whole route is flagged too. That is a false alarm, not a safety risk.</li>
+      <li>The beep works only on a tag separated from its owner and in range.</li>
+      <li>AirTags only. Other Find My accessories, Samsung SmartTags and Tile are future work, along with Android.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Materials</p>
+    <h2>Report, data and code</h2>
+    <div class="downloads">
+      <a href="files/TagAlert_Final_Report.pdf">Final report (PDF)<span>APCV 498 capstone report, 21 pages</span></a>
+      <a href="files/TagAlert_Final_Report.docx">Final report (Word)<span>Same report, editable</span></a>
+      <a href="files/TagAlert_Test_Results.xlsx">Test results workbook<span>Stationary, walking and battery tests</span></a>
+      <a href="https://github.com/Hadik-UofA/TagAlert/tree/main/logs">Test logs<span>21 CSV logs; recompute every number with tools/analyze_log.py</span></a>
+      <a href="https://github.com/Hadik-UofA/TagAlert">Source code<span>Swift, SwiftUI, Core Bluetooth, Core Motion. MIT license</span></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    Elizabeth Hadik-Barkoczy · APCV 498, University of Arizona · November 2026.<br>
+    Detection method after Heinrich, Bittner and Hollick (2022), AirGuard, ACM WiSec. AirTag, Find My and iOS are trademarks of Apple Inc.; this project is not affiliated with Apple.
+  </div>
+</footer>
+</body>
+</html>

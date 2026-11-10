@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs><filter id="g" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="9"/></filter></defs>
+
+<g transform="translate(512 512) scale(0.84) translate(-512 -512)"><g filter="url(#g)" opacity="0.55"><path d="M 677 512 A 165 165 0 1 1 512 347" fill="none" stroke="#6FF3FF" stroke-width="46" stroke-linecap="round" />
+<path d="M 787 512 A 275 275 0 1 1 512 237" fill="none" stroke="#6FF3FF" stroke-width="46" stroke-linecap="round" />
+<path d="M 897 512 A 385 385 0 1 1 512 127" fill="none" stroke="#6FF3FF" stroke-width="46" stroke-linecap="round" /><circle cx="512" cy="512" r="64" fill="#F5B23E"/></g>
+<path d="M 677 512 A 165 165 0 1 1 512 347" fill="none" stroke="#6FF3FF" stroke-width="46" stroke-linecap="round" />
+<path d="M 787 512 A 275 275 0 1 1 512 237" fill="none" stroke="#6FF3FF" stroke-width="46" stroke-linecap="round" />
+<path d="M 897 512 A 385 385 0 1 1 512 127" fill="none" stroke="#6FF3FF" stroke-width="46" stroke-linecap="round" />
+<circle cx="512" cy="512" r="64" fill="#F5B23E"/>
+</g></svg>

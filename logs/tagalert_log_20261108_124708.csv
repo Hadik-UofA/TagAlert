@@ -1,0 +1,279 @@
+iso_time,event,tag_id,rssi,mfr_hex_first4,threat,persistence,detection_count,scan_interval_s,battery_pct,mode,note
+2026-11-08T20:49:42.509Z,SESSION_START,,,,,,,30,70,LIVE,live scan
+2026-11-08T20:49:42.512Z,SCAN_START,,,,,,,30,70,LIVE,
+2026-11-08T20:49:42.835Z,PERIPHERAL,A18F3C3E,-96,,,,,30,70,LIVE,name=[redacted]|conn=yes|keys=IsConnectable+LocalName+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:42.836Z,PERIPHERAL,7312A137,-43,,,,,30,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:42.836Z,PERIPHERAL,9C4E1A83,-94,,,,,30,70,LIVE,name=[redacted]|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+ServiceUUIDs+Timestamp+TxPowerLevel|mfr=A70506001200|svc=FE07|svcdata=-
+2026-11-08T20:49:42.836Z,PERIPHERAL,2177463E,-91,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+ServiceUUIDs+Timestamp|mfr=4D48314D2D4C|svc=FE4F|svcdata=-
+2026-11-08T20:49:42.836Z,PERIPHERAL,0C3FD7C0,-81,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=690910003BC2|svc=-|svcdata=-
+2026-11-08T20:49:42.837Z,PERIPHERAL,69D51634,-78,,,,,30,70,LIVE,name=[redacted]|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+ServiceUUIDs+Timestamp+TxPowerLevel|mfr=A70506001200|svc=FE07|svcdata=-
+2026-11-08T20:49:42.837Z,PERIPHERAL,CC09DDBA,-77,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:42.837Z,PERIPHERAL,16E412EB,-60,,,,,30,70,LIVE,name=-|conn=no|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=750042040180|svc=-|svcdata=-
+2026-11-08T20:49:42.837Z,PERIPHERAL,207BB904,-91,,,,,30,70,LIVE,name=[redacted]|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+ServiceUUIDs+Timestamp+TxPowerLevel|mfr=A70506001210|svc=FE07|svcdata=-
+2026-11-08T20:49:42.837Z,PERIPHERAL,76389B29,-76,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+ServiceUUIDs+Timestamp+TxPowerLevel|mfr=A70506001A20|svc=FE07|svcdata=-
+2026-11-08T20:49:42.837Z,PERIPHERAL,8089FAAD,-93,,,,,30,70,LIVE,name=-|conn=no|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=060001092022|svc=-|svcdata=-
+2026-11-08T20:49:42.838Z,PERIPHERAL,DE15FFCF,-42,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:42.838Z,PERIPHERAL,2A084CC9,-78,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:42.838Z,PERIPHERAL,D903AC45,-60,,,,,30,70,LIVE,name=[redacted]|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:42.838Z,PERIPHERAL,E7EE7ADB,-89,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=6909C55E6F31|svc=-|svcdata=-
+2026-11-08T20:49:42.967Z,PERIPHERAL,AFA352DA,-80,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:42.987Z,PERIPHERAL,F902CE2E,-100,,,,,30,70,LIVE,name=[redacted]|conn=yes|keys=IsConnectable+LocalName+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=FFFF08000000|svc=-|svcdata=-
+2026-11-08T20:49:42.992Z,PERIPHERAL,7F5979CD,-43,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:42.998Z,PERIPHERAL,480AE04C,-78,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:43.025Z,PERIPHERAL,C6AD61B6,-97,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:43.035Z,PERIPHERAL,F6856894,-92,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=7500021844A1|svc=-|svcdata=-
+2026-11-08T20:49:43.041Z,PERIPHERAL,30E43D25,-92,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:43.203Z,PERIPHERAL,BD187DC8,-95,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+ServiceData+ServiceUUIDs+Timestamp|mfr=-|svc=FEA0|svcdata=FEA0
+2026-11-08T20:49:43.284Z,PERIPHERAL,315B2123,-80,,,,,30,70,LIVE,name=[redacted]|conn=no|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=750042040180|svc=-|svcdata=-
+2026-11-08T20:49:43.330Z,PERIPHERAL,6BB2D820,-87,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=6909F9E15B58|svc=-|svcdata=-
+2026-11-08T20:49:43.391Z,PERIPHERAL,78AACF24,-92,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+ServiceUUIDs+Timestamp+TxPowerLevel|mfr=A70506001200|svc=FE07|svcdata=-
+2026-11-08T20:49:43.456Z,PERIPHERAL,7C57BEAB,-97,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:43.705Z,PERIPHERAL,F609B426,-97,,,,,30,70,LIVE,name=-|conn=no|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=750042040180|svc=-|svcdata=-
+2026-11-08T20:49:43.742Z,PERIPHERAL,B3477EAB,-85,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:44.195Z,PERIPHERAL,A5EB32B8,-96,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=3B0102001103|svc=-|svcdata=-
+2026-11-08T20:49:44.334Z,PERIPHERAL,5261E3CC,-89,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=3B0102001103|svc=-|svcdata=-
+2026-11-08T20:49:44.347Z,PERIPHERAL,28D5FDDC,-53,,,,,30,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:44.536Z,PERIPHERAL,FF051886,-44,,,,,30,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:44.585Z,PERIPHERAL,27F0655E,-88,,,,,30,70,LIVE,name=[redacted]|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=3B0102001103|svc=-|svcdata=-
+2026-11-08T20:49:45.545Z,PERIPHERAL,C56DCB6E,-86,,,,,30,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:45.571Z,PERIPHERAL,657C6686,-93,,,,,30,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:46.245Z,PERIPHERAL,557FDA3E,-100,,,,,30,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:46.474Z,PERIPHERAL,34341D41,-96,,,,,30,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:46.652Z,PERIPHERAL,8825D224,-92,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:49:46.781Z,PERIPHERAL,7E060BBF,-85,,,,,30,70,LIVE,name=[redacted]|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=3B0102001103|svc=-|svcdata=-
+2026-11-08T20:49:47.763Z,SCAN_END,,,,,,0,30,70,LIVE,all_peripherals=40 bare_candidates=11 probe_queue=11 probed=0 airtags_confirmed=0 company_ids=0006:1|0075:4|013B:4|05A7:5|0969:3|484D:1|FFFF:1
+2026-11-08T20:49:47.766Z,PROBE_START,CC09DDBA,-78,,,,,30,70,LIVE,attempt=1 queue_left=10
+2026-11-08T20:49:49.427Z,PROBE_RESULT,CC09DDBA,-78,,,,,30,70,LIVE,airtag=true reason=service_7DFC9000
+2026-11-08T20:49:49.428Z,ADV,CC09DDBA,-78,GATT7DFC,,,,30,70,LIVE,
+2026-11-08T20:49:49.739Z,PROBE_START,DE15FFCF,-45,,,,,30,70,LIVE,attempt=1 queue_left=9
+2026-11-08T20:49:51.437Z,PROBE_RESULT,DE15FFCF,-45,,,,,30,70,LIVE,airtag=false reason=no_airtag_service
+2026-11-08T20:49:51.749Z,PROBE_START,2A084CC9,-92,,,,,30,70,LIVE,attempt=1 queue_left=8
+2026-11-08T20:49:53.597Z,PROBE_RESULT,2A084CC9,-92,,,,,30,70,LIVE,airtag=false reason=no_airtag_service
+2026-11-08T20:49:53.912Z,PROBE_START,AFA352DA,-80,,,,,30,70,LIVE,attempt=1 queue_left=7
+2026-11-08T20:49:58.094Z,PROBE_RESULT,AFA352DA,-80,,,,,30,70,LIVE,airtag=false reason=no_airtag_service
+2026-11-08T20:49:58.409Z,PROBE_START,7F5979CD,-43,,,,,30,70,LIVE,attempt=1 queue_left=6
+2026-11-08T20:50:00.103Z,PROBE_RESULT,7F5979CD,-43,,,,,30,70,LIVE,airtag=false reason=no_airtag_service
+2026-11-08T20:50:00.412Z,PROBE_START,480AE04C,-86,,,,,30,70,LIVE,attempt=1 queue_left=5
+2026-11-08T20:50:02.054Z,PROBE_RESULT,480AE04C,-86,,,,,30,70,LIVE,airtag=false reason=no_airtag_service
+2026-11-08T20:50:02.362Z,PROBE_START,C6AD61B6,-97,,,,,30,70,LIVE,attempt=1 queue_left=4
+2026-11-08T20:50:07.544Z,PROBE_RESULT,C6AD61B6,-97,,,,,30,70,LIVE,airtag=false reason=no_airtag_service
+2026-11-08T20:50:07.851Z,PROBE_START,30E43D25,-89,,,,,30,70,LIVE,attempt=1 queue_left=3
+2026-11-08T20:50:09.824Z,PROBE_RESULT,30E43D25,-89,,,,,30,70,LIVE,airtag=false reason=no_airtag_service
+2026-11-08T20:50:10.134Z,PROBE_START,7C57BEAB,-79,,,,,30,70,LIVE,attempt=1 queue_left=2
+2026-11-08T20:50:12.674Z,PROBE_RESULT,7C57BEAB,-79,,,,,30,70,LIVE,airtag=false reason=no_airtag_service
+2026-11-08T20:50:12.768Z,SCAN_START,,,,,,,30,70,LIVE,
+2026-11-08T20:50:12.987Z,PROBE_START,B3477EAB,-86,,,,,30,70,LIVE,attempt=1 queue_left=1
+2026-11-08T20:50:13.216Z,PERIPHERAL,4CAE88D2,-92,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:50:13.512Z,ADV,CC09DDBA,-67,GATT7DFC,,,,30,70,LIVE,
+2026-11-08T20:50:13.570Z,PERIPHERAL,A90553FC,-69,,,,,30,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:50:13.582Z,PERIPHERAL,C04329C8,-94,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:50:13.610Z,PERIPHERAL,A4816F3A,-93,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:50:13.812Z,PERIPHERAL,DD420B73,-99,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:50:13.984Z,PERIPHERAL,EB5AF485,-96,,,,,30,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:50:14.686Z,PROBE_RESULT,B3477EAB,-73,,,,,30,70,LIVE,airtag=false reason=no_airtag_service
+2026-11-08T20:50:14.997Z,PROBE_START,8825D224,-93,,,,,30,70,LIVE,attempt=1 queue_left=4
+2026-11-08T20:50:15.134Z,PERIPHERAL,2C91452C,-82,,,,,30,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:50:15.317Z,PERIPHERAL,1A4F28F1,-88,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=6909B0E9FED1|svc=-|svcdata=-
+2026-11-08T20:50:15.519Z,ADV,CC09DDBA,-73,GATT7DFC,,,,30,70,LIVE,
+2026-11-08T20:50:15.836Z,PERIPHERAL,FE5CE2C3,-94,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=3B0102001103|svc=-|svcdata=-
+2026-11-08T20:50:16.434Z,PERIPHERAL,8D7848E2,-98,,,,,30,70,LIVE,name=-|conn=no|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=0600010F2022|svc=-|svcdata=-
+2026-11-08T20:50:17.521Z,ADV,CC09DDBA,-75,GATT7DFC,,,,30,70,LIVE,
+2026-11-08T20:50:17.718Z,PERIPHERAL,FBA089D2,-95,,,,,30,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=3B0102001103|svc=-|svcdata=-
+2026-11-08T20:50:18.014Z,DETECTED,CC09DDBA,-75,,Low,Transient,4,30,70,LIVE,
+2026-11-08T20:50:18.014Z,THREAT_CHANGE,CC09DDBA,-75,,Low,Transient,4,30,70,LIVE,age_s=28
+2026-11-08T20:50:18.015Z,SCAN_END,,,,,,1,30,70,LIVE,all_peripherals=46 bare_candidates=15 probe_queue=4 probed=10 airtags_confirmed=1 company_ids=0006:2|0075:4|013B:6|05A7:4|0969:4|484D:1|FFFF:1
+2026-11-08T20:50:19.874Z,PROBE_RESULT,8825D224,-87,,,,,15,70,LIVE,airtag=true reason=service_7DFC9000
+2026-11-08T20:50:19.874Z,ADV,8825D224,-87,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:50:20.180Z,PROBE_START,4CAE88D2,-94,,,,,15,70,LIVE,attempt=1 queue_left=3
+2026-11-08T20:50:26.774Z,PROBE_RESULT,4CAE88D2,-94,,,,,15,70,LIVE,airtag=false reason=no_airtag_service
+2026-11-08T20:50:27.086Z,PROBE_START,C04329C8,-92,,,,,15,70,LIVE,attempt=1 queue_left=2
+2026-11-08T20:50:28.017Z,SCAN_START,,,,,,,15,70,LIVE,
+2026-11-08T20:50:28.805Z,PERIPHERAL,4D06319D,-90,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:50:29.546Z,ADV,CC09DDBA,-74,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:50:29.941Z,PERIPHERAL,D6334641,-95,,,,,15,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:50:30.276Z,PERIPHERAL,38333030,-92,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=6909B0E9FE74|svc=-|svcdata=-
+2026-11-08T20:50:31.550Z,ADV,CC09DDBA,-70,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:50:31.943Z,ADV,8825D224,-86,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:50:32.921Z,PERIPHERAL,E6958254,-95,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:50:33.231Z,DETECTED,8825D224,-86,,Low,Transient,2,15,70,LIVE,
+2026-11-08T20:50:33.232Z,THREAT_CHANGE,8825D224,-86,,Low,Transient,2,15,70,LIVE,age_s=13
+2026-11-08T20:50:33.232Z,SCAN_END,,,,,,2,15,70,LIVE,all_peripherals=49 bare_candidates=17 probe_queue=4 probed=12 airtags_confirmed=2 company_ids=0006:1|0075:4|013B:5|05A7:4|0969:5|484D:1|FFFF:1
+2026-11-08T20:50:35.482Z,PROBE_RESULT,C04329C8,-95,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:50:35.793Z,PROBE_START,A4816F3A,-95,,,,,15,70,LIVE,attempt=1 queue_left=4
+2026-11-08T20:50:43.234Z,SCAN_START,,,,,,,15,70,LIVE,
+2026-11-08T20:50:43.378Z,PERIPHERAL,9DFB4C27,-82,,,,,15,70,LIVE,name=-|conn=no|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=060001092022|svc=-|svcdata=-
+2026-11-08T20:50:43.588Z,ADV,CC09DDBA,-66,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:50:43.603Z,ADV,CC09DDBA,-65,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:50:44.182Z,PROBE_RESULT,A4816F3A,-95,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:50:44.493Z,PROBE_START,DD420B73,-96,,,,,15,70,LIVE,attempt=1 queue_left=4
+2026-11-08T20:50:45.593Z,ADV,CC09DDBA,-66,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:50:45.609Z,ADV,CC09DDBA,-66,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:50:46.441Z,PERIPHERAL,3AB195EF,-96,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=87000CD8|svc=-|svcdata=-
+2026-11-08T20:50:47.353Z,PERIPHERAL,F70DC90B,-92,,,,,15,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+ServiceData+ServiceUUIDs+Timestamp|mfr=-|svc=FEAF|svcdata=FEAF
+2026-11-08T20:50:47.599Z,ADV,CC09DDBA,-69,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:50:47.617Z,ADV,CC09DDBA,-69,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:50:47.975Z,ADV,8825D224,-91,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:50:48.375Z,PERIPHERAL,2AB18EF5,-99,,,,,15,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:50:48.483Z,THREAT_CHANGE,CC09DDBA,-69,,Medium,Transient,12,15,70,LIVE,age_s=59
+2026-11-08T20:50:48.497Z,NOTIFY,CC09DDBA,,,Medium,,,15,70,LIVE,
+2026-11-08T20:50:48.498Z,SCAN_END,,,,,,2,15,70,LIVE,all_peripherals=52 bare_candidates=17 probe_queue=4 probed=12 airtags_confirmed=2 company_ids=0006:1|0075:4|0087:1|013B:4|05A7:5|0969:5|484D:1|FFFF:1
+2026-11-08T20:50:52.882Z,PROBE_RESULT,DD420B73,-96,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:50:53.195Z,PROBE_START,4D06319D,-88,,,,,15,70,LIVE,attempt=1 queue_left=4
+2026-11-08T20:50:55.845Z,PROBE_RESULT,4D06319D,-88,,,,,15,70,LIVE,airtag=true reason=service_7DFC9000
+2026-11-08T20:50:55.845Z,ADV,4D06319D,-88,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:50:56.149Z,PROBE_START,E6958254,-98,,,,,15,70,LIVE,attempt=1 queue_left=3
+2026-11-08T20:50:58.499Z,SCAN_START,,,,,,,15,70,LIVE,
+2026-11-08T20:50:59.637Z,ADV,CC09DDBA,-63,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:50:59.657Z,ADV,CC09DDBA,-63,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:50:59.900Z,ADV,4D06319D,-89,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:00.007Z,ADV,8825D224,-92,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:00.705Z,PERIPHERAL,DEADE924,-96,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:51:01.649Z,ADV,CC09DDBA,-75,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:03.652Z,ADV,CC09DDBA,-76,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:03.700Z,DETECTED,4D06319D,-89,,Low,Transient,2,15,70,LIVE,
+2026-11-08T20:51:03.700Z,THREAT_CHANGE,4D06319D,-89,,Low,Transient,2,15,70,LIVE,age_s=7
+2026-11-08T20:51:03.701Z,SCAN_END,,,,,,3,15,70,LIVE,all_peripherals=47 bare_candidates=18 probe_queue=4 probed=13 airtags_confirmed=3 company_ids=0006:2|0075:4|013B:3|05A7:5|0969:5|484D:1
+2026-11-08T20:51:04.550Z,PROBE_RESULT,E6958254,-98,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:51:04.864Z,PROBE_START,C04329C8,-94,,,,,15,70,LIVE,attempt=2 queue_left=4
+2026-11-08T20:51:13.201Z,PROBE_RESULT,C04329C8,-94,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:51:13.514Z,PROBE_START,A4816F3A,-97,,,,,15,70,LIVE,attempt=2 queue_left=3
+2026-11-08T20:51:13.702Z,SCAN_START,,,,,,,15,70,LIVE,
+2026-11-08T20:51:13.940Z,ADV,4D06319D,-89,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:14.966Z,PERIPHERAL,3207FC81,-98,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+ServiceUUIDs+Timestamp|mfr=022500890100|svc=06AA1910-F22A-11E3-9DAA-0002A5D5C51B|svcdata=-
+2026-11-08T20:51:15.982Z,PERIPHERAL,FB7F2F17,-96,,,,,15,70,LIVE,name=[redacted]|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:51:16.050Z,ADV,8825D224,-85,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:16.881Z,PERIPHERAL,A6186A55,-98,,,,,15,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:51:17.516Z,PERIPHERAL,7954212E,-98,,,,,15,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:51:17.677Z,ADV,CC09DDBA,-70,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:17.801Z,PERIPHERAL,42E58BF2,-99,,,,,15,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:51:17.952Z,ADV,4D06319D,-94,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:18.056Z,ADV,8825D224,-91,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:18.289Z,PERIPHERAL,F6C20EC6,-98,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:51:18.451Z,PERIPHERAL,DB31EDF1,-100,,,,,15,70,LIVE,name=-|conn=no|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=2D0102000110|svc=-|svcdata=-
+2026-11-08T20:51:18.951Z,SCAN_END,,,,,,3,15,70,LIVE,all_peripherals=57 bare_candidates=19 probe_queue=4 probed=14 airtags_confirmed=3 company_ids=0006:1|0075:4|0087:1|012D:1|013B:5|05A7:5|0969:5|2502:1|484D:1|FFFF:1
+2026-11-08T20:51:21.909Z,PROBE_RESULT,A4816F3A,-96,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:51:22.221Z,PROBE_START,DD420B73,-90,,,,,15,70,LIVE,attempt=2 queue_left=3
+2026-11-08T20:51:28.953Z,SCAN_START,,,,,,,15,70,LIVE,
+2026-11-08T20:51:29.165Z,PERIPHERAL,854AD2EA,-96,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:51:30.098Z,ADV,8825D224,-87,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:30.109Z,ADV,8825D224,-88,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:30.618Z,PROBE_RESULT,DD420B73,-91,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:51:30.933Z,PROBE_START,DEADE924,-91,,,,,15,70,LIVE,attempt=1 queue_left=3
+2026-11-08T20:51:31.721Z,ADV,CC09DDBA,-68,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:32.101Z,ADV,8825D224,-85,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:32.278Z,SOUND_START,CC09DDBA,-68,,,,,15,70,LIVE,cmd=AF
+2026-11-08T20:51:32.328Z,PERIPHERAL,F35E70FE,-93,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=F603B0A7DE01|svc=-|svcdata=-
+2026-11-08T20:51:33.723Z,ADV,CC09DDBA,-65,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:33.998Z,ADV,4D06319D,-94,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:34.020Z,ADV,4D06319D,-92,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:34.201Z,THREAT_CHANGE,8825D224,-85,,Medium,Tracking,9,15,70,LIVE,age_s=74
+2026-11-08T20:51:34.203Z,NOTIFY,8825D224,,,Medium,,,15,70,LIVE,
+2026-11-08T20:51:34.204Z,SCAN_END,,,,,,3,15,70,LIVE,all_peripherals=51 bare_candidates=20 probe_queue=3 probed=16 airtags_confirmed=3 company_ids=0006:1|0075:4|0087:1|013B:2|03F6:1|05A7:4|0969:4|484D:1|FFFF:1
+2026-11-08T20:51:34.575Z,SOUND_RESULT,CC09DDBA,-65,,,,,15,70,LIVE,ok=true msg=Sound command sent. The tag should beep for about 15 seconds.
+2026-11-08T20:51:35.096Z,PROBE_START,E6958254,-98,,,,,15,70,LIVE,attempt=2 queue_left=2
+2026-11-08T20:51:43.492Z,PROBE_RESULT,E6958254,-98,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:51:43.808Z,PROBE_START,F6C20EC6,-98,,,,,15,70,LIVE,attempt=1 queue_left=1
+2026-11-08T20:51:44.206Z,SCAN_START,,,,,,,15,70,LIVE,
+2026-11-08T20:51:44.323Z,PERIPHERAL,3BE5A42B,-85,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:51:46.140Z,ADV,8825D224,-94,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:47.955Z,PERIPHERAL,D358F958,-99,,,,,15,70,LIVE,name=-|conn=no|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=0600010F2022|svc=-|svcdata=-
+2026-11-08T20:51:48.044Z,ADV,4D06319D,-94,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:48.784Z,ADV,CC09DDBA,-66,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:51:49.453Z,SCAN_END,,,,,,3,15,70,LIVE,all_peripherals=51 bare_candidates=21 probe_queue=2 probed=17 airtags_confirmed=3 company_ids=0006:2|0075:4|013B:5|05A7:5|0969:4|484D:1|FFFF:1
+2026-11-08T20:51:52.203Z,PROBE_RESULT,F6C20EC6,-98,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:51:52.514Z,PROBE_START,854AD2EA,-96,,,,,15,70,LIVE,attempt=1 queue_left=2
+2026-11-08T20:51:59.455Z,SCAN_START,,,,,,,15,70,LIVE,
+2026-11-08T20:51:59.658Z,PERIPHERAL,48021C5C,-87,,,,,15,70,LIVE,name=-|conn=no|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:51:59.702Z,PERIPHERAL,CE320262,-77,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:51:59.919Z,SOUND_START,CC09DDBA,-66,,,,,15,70,LIVE,cmd=AF
+2026-11-08T20:51:59.942Z,PERIPHERAL,64BB5213,-69,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:52:00.176Z,ADV,8825D224,-91,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:52:00.553Z,PERIPHERAL,55AE87ED,-98,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:52:00.821Z,ADV,CC09DDBA,-65,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:52:01.249Z,PERIPHERAL,1FFAA5B5,-98,,,,,15,70,LIVE,name=[redacted]|conn=yes|keys=IsConnectable+LocalName+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=4388EC000202|svc=-|svcdata=-
+2026-11-08T20:52:01.576Z,SOUND_RESULT,CC09DDBA,-65,,,,,15,70,LIVE,ok=true msg=Sound command sent. The tag should beep for about 15 seconds.
+2026-11-08T20:52:02.089Z,PROBE_START,3BE5A42B,-81,,,,,15,70,LIVE,attempt=1 queue_left=4
+2026-11-08T20:52:04.194Z,ADV,8825D224,-85,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:52:04.457Z,PROBE_RESULT,3BE5A42B,-81,,,,,15,70,LIVE,airtag=false reason=no_airtag_service
+2026-11-08T20:52:04.458Z,THREAT_CHANGE,4D06319D,-94,,Medium,Tracking,7,15,70,LIVE,age_s=68
+2026-11-08T20:52:04.458Z,NOTIFY,4D06319D,,,Medium,,,15,70,LIVE,
+2026-11-08T20:52:04.459Z,SCAN_END,,,,,,3,15,70,LIVE,all_peripherals=48 bare_candidates=24 probe_queue=4 probed=18 airtags_confirmed=3 company_ids=0006:1|0075:4|013B:4|05A7:5|0969:4|484D:1|8843:1|FFFF:1
+2026-11-08T20:52:04.459Z,PROBE_START,F6C20EC6,-98,,,,,15,70,LIVE,attempt=2 queue_left=3
+2026-11-08T20:52:12.515Z,PROBE_RESULT,F6C20EC6,-98,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:52:12.820Z,PROBE_START,CE320262,-77,,,,,15,70,LIVE,attempt=1 queue_left=2
+2026-11-08T20:52:14.460Z,SCAN_START,,,,,,,15,70,LIVE,
+2026-11-08T20:52:15.121Z,PERIPHERAL,52681FE2,-97,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=-|svc=-|svcdata=-
+2026-11-08T20:52:15.793Z,ADV,CC09DDBA,-68,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:52:16.228Z,ADV,8825D224,-89,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:52:17.790Z,ADV,CC09DDBA,-68,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:52:18.232Z,ADV,8825D224,-86,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:52:19.704Z,SCAN_END,,,,,,3,15,70,LIVE,all_peripherals=51 bare_candidates=25 probe_queue=4 probed=19 airtags_confirmed=3 company_ids=0006:1|0075:4|0087:1|013B:5|05A7:5|0969:4|484D:1|FFFF:1
+2026-11-08T20:52:21.221Z,PROBE_RESULT,CE320262,-77,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:52:21.534Z,PROBE_START,64BB5213,-74,,,,,15,70,LIVE,attempt=1 queue_left=4
+2026-11-08T20:52:25.568Z,SOUND_START,CC09DDBA,-68,,,,,15,70,LIVE,cmd=AF
+2026-11-08T20:52:26.625Z,SOUND_RESULT,CC09DDBA,-68,,,,,15,70,LIVE,ok=true msg=Sound command sent. The tag should beep for about 15 seconds.
+2026-11-08T20:52:27.144Z,PROBE_START,55AE87ED,-98,,,,,15,70,LIVE,attempt=1 queue_left=3
+2026-11-08T20:52:29.706Z,SCAN_START,,,,,,,15,70,LIVE,
+2026-11-08T20:52:29.939Z,PERIPHERAL,5B3EBEAA,-69,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+ServiceUUIDs+Timestamp|mfr=01095112396D|svc=FEBE+FE26+FE03|svcdata=-
+2026-11-08T20:52:30.261Z,ADV,8825D224,-92,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:52:31.898Z,SOUND_START,8825D224,-92,,,,,15,70,LIVE,cmd=AF
+2026-11-08T20:52:32.258Z,ADV,8825D224,-87,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:52:32.275Z,ADV,8825D224,-86,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:52:33.288Z,PERIPHERAL,F01E9662,-94,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+ServiceData+ServiceUUIDs+Timestamp|mfr=-|svc=FEA0|svcdata=FEA0
+2026-11-08T20:52:34.264Z,ADV,8825D224,-86,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:52:34.761Z,SCAN_END,,,,,,3,15,70,LIVE,all_peripherals=45 bare_candidates=25 probe_queue=3 probed=19 airtags_confirmed=3 company_ids=0006:1|0075:4|0087:1|013B:3|05A7:5|0901:1|0969:4|484D:1|FFFF:1
+2026-11-08T20:52:35.775Z,SOUND_RESULT,8825D224,-86,,,,,15,70,LIVE,ok=true msg=Sound command sent. The tag should beep for about 15 seconds.
+2026-11-08T20:52:36.294Z,PROBE_START,DEADE924,-87,,,,,15,70,LIVE,attempt=2 queue_left=2
+2026-11-08T20:52:44.491Z,PROBE_RESULT,DEADE924,-87,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:52:44.762Z,SCAN_START,,,,,,,15,70,LIVE,
+2026-11-08T20:52:44.805Z,PROBE_START,52681FE2,-97,,,,,15,70,LIVE,attempt=1 queue_left=1
+2026-11-08T20:52:46.202Z,ADV,4D06319D,-89,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:52:46.823Z,ADV,CC09DDBA,-60,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:52:48.832Z,ADV,CC09DDBA,-60,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:52:49.990Z,ADV,8825D224,-93,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:52:50.015Z,SCAN_END,,,,,,3,15,70,LIVE,all_peripherals=52 bare_candidates=25 probe_queue=1 probed=20 airtags_confirmed=3 company_ids=0006:1|0075:4|0087:1|013B:5|05A7:5|0901:1|0969:5|484D:1|8843:1|FFFF:1
+2026-11-08T20:52:53.206Z,PROBE_RESULT,52681FE2,-97,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:52:53.516Z,PROBE_START,CE320262,-77,,,,,15,70,LIVE,attempt=2 queue_left=1
+2026-11-08T20:52:58.749Z,SOUND_START,4D06319D,-89,,,,,15,70,LIVE,cmd=AF
+2026-11-08T20:53:00.016Z,SCAN_START,,,,,,,15,70,LIVE,
+2026-11-08T20:53:02.017Z,ADV,8825D224,-84,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:53:02.880Z,ADV,CC09DDBA,-62,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:53:03.554Z,PERIPHERAL,F8EB6451,-99,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:53:04.021Z,ADV,8825D224,-83,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:53:05.224Z,SCAN_END,,,,,,3,15,70,LIVE,all_peripherals=46 bare_candidates=26 probe_queue=2 probed=20 airtags_confirmed=3 company_ids=0006:1|0075:4|013B:4|05A7:5|0901:1|0969:3|484D:1|8843:1|FFFF:1
+2026-11-08T20:53:11.324Z,SOUND_RESULT,4D06319D,-89,,,,,15,70,LIVE,ok=false msg=Timed out. The tag may be near its owner; out of range; or busy.
+2026-11-08T20:53:11.844Z,PROBE_START,52681FE2,-97,,,,,15,70,LIVE,attempt=2 queue_left=1
+2026-11-08T20:53:15.226Z,SCAN_START,,,,,,,15,70,LIVE,
+2026-11-08T20:53:15.952Z,PERIPHERAL,DE731313,-98,,,,,15,70,LIVE,name=-|conn=yes|keys=IsConnectable+RxPrimaryPHY+RxSecondaryPHY+Timestamp+TxPowerLevel|mfr=-|svc=-|svcdata=-
+2026-11-08T20:53:16.056Z,ADV,8825D224,-87,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:53:16.912Z,ADV,CC09DDBA,-74,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:53:18.911Z,ADV,CC09DDBA,-68,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:53:18.931Z,ADV,CC09DDBA,-68,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:53:20.241Z,PROBE_RESULT,52681FE2,-97,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:53:20.242Z,SCAN_END,,,,,,3,15,70,LIVE,all_peripherals=47 bare_candidates=27 probe_queue=2 probed=21 airtags_confirmed=3 company_ids=0006:1|0075:4|013B:4|05A7:5|0901:1|0969:5|484D:1|8843:1|FFFF:1
+2026-11-08T20:53:20.242Z,PROBE_START,F8EB6451,-99,,,,,15,70,LIVE,attempt=1 queue_left=1
+2026-11-08T20:53:28.575Z,PROBE_RESULT,F8EB6451,-99,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:53:28.885Z,PROBE_START,DE731313,-98,,,,,15,70,LIVE,attempt=1 queue_left=1
+2026-11-08T20:53:30.244Z,SCAN_START,,,,,,,15,70,LIVE,
+2026-11-08T20:53:30.937Z,ADV,CC09DDBA,-70,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:53:32.092Z,ADV,8825D224,-92,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:53:34.949Z,ADV,CC09DDBA,-66,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:53:35.492Z,SCAN_END,,,,,,3,15,70,LIVE,all_peripherals=42 bare_candidates=27 probe_queue=1 probed=21 airtags_confirmed=3 company_ids=0006:1|0075:4|013B:3|05A7:4|0901:1|0969:3|484D:1|8843:1|FFFF:1
+2026-11-08T20:53:37.284Z,PROBE_RESULT,DE731313,-98,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:53:37.594Z,PROBE_START,F8EB6451,-99,,,,,15,70,LIVE,attempt=2 queue_left=1
+2026-11-08T20:53:45.493Z,SCAN_START,,,,,,,15,70,LIVE,
+2026-11-08T20:53:45.904Z,PROBE_RESULT,F8EB6451,-99,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:53:46.121Z,ADV,8825D224,-95,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:53:46.141Z,ADV,8825D224,-96,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:53:46.212Z,PROBE_START,DE731313,-98,,,,,15,70,LIVE,attempt=2 queue_left=0
+2026-11-08T20:53:46.993Z,ADV,CC09DDBA,-72,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:53:50.133Z,ADV,8825D224,-91,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:53:50.743Z,SCAN_END,,,,,,3,15,70,LIVE,all_peripherals=44 bare_candidates=27 probe_queue=0 probed=22 airtags_confirmed=3 company_ids=0006:1|0075:4|013B:4|05A7:5|0901:1|0969:4|484D:1|8843:1|FFFF:1
+2026-11-08T20:53:54.593Z,PROBE_RESULT,DE731313,-98,,,,,15,70,LIVE,airtag=false reason=timeout
+2026-11-08T20:54:00.745Z,SCAN_START,,,,,,,15,70,LIVE,
+2026-11-08T20:54:01.031Z,ADV,CC09DDBA,-71,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:54:01.055Z,ADV,CC09DDBA,-71,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:54:03.030Z,ADV,CC09DDBA,-61,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:54:03.441Z,PERIPHERAL,D1D8E048,-97,,,,,15,70,LIVE,name=[redacted]|conn=yes|keys=IsConnectable+LocalName+ManufacturerData+RxPrimaryPHY+RxSecondaryPHY+Timestamp|mfr=0388EC000101|svc=-|svcdata=-
+2026-11-08T20:54:04.391Z,ADV,4D06319D,-94,GATT7DFC,,,,15,70,LIVE,
+2026-11-08T20:54:04.983Z,SESSION_STOP,,,,,,,15,70,LIVE,
