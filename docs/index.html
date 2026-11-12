@@ -19,7 +19,8 @@
   body { margin: 0; font-family: Poppins, system-ui, -apple-system, Segoe UI, sans-serif; color: var(--ink); background: var(--paper); line-height: 1.6; }
   a { color: #0A66C2; }
   .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
-  header { background: radial-gradient(1200px 600px at 20% 0%, var(--navy2), var(--navy)); color: #fff; overflow: hidden; position: relative; }
+  header { background: radial-gradient(1200px 600px at 20% 0%, var(--navy2), var(--navy)); color: #fff; position: relative; z-index: 2; }
+  .rings-clip { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
   header .wrap { padding-top: 56px; padding-bottom: 72px; position: relative; z-index: 1; }
   .rings { position: absolute; right: -160px; top: -120px; width: 620px; height: 620px; z-index: 0; opacity: .35; }
   .rings span { position: absolute; inset: 0; border: 2px solid var(--cyan); border-radius: 50%; animation: ping 4s linear infinite; }
@@ -32,8 +33,17 @@
   .lede { font-size: 1.15rem; font-weight: 300; max-width: 640px; margin: 0 0 28px; color: #D7DCF5; }
   .btns a { display: inline-block; margin: 0 10px 10px 0; padding: 11px 20px; border-radius: 999px; font-weight: 600; text-decoration: none; font-size: .95rem; }
   .btn-main { background: var(--cyan); color: var(--navy); }
+  .report-menu { display: inline-block; position: relative; margin: 0 10px 10px 0; vertical-align: top; }
+  .report-menu summary { list-style: none; cursor: pointer; display: inline-block; padding: 11px 20px; border-radius: 999px; font-weight: 600; font-size: .95rem; }
+  .report-menu summary::-webkit-details-marker { display: none; }
+  .report-menu summary:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+  .report-options { position: absolute; top: calc(100% + 6px); left: 0; z-index: 10; min-width: 230px; background: #fff; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,.25); padding: 6px; }
+  .btns .report-options a { display: block; margin: 0; padding: 10px 14px; border-radius: 8px; color: var(--navy); font-weight: 600; }
+  .btns .report-options a:hover, .btns .report-options a:focus-visible { background: rgba(115,198,222,.25); }
+  .report-options span { display: block; font-weight: 400; font-size: .82rem; opacity: .75; }
   .btn-ghost { border: 1.5px solid rgba(255,255,255,.5); color: #fff; }
   .meta { font-size: .85rem; color: #AEB5DA; margin-top: 18px; }
+  .meta strong { color: var(--amber); font-weight: 600; }
   section { padding: 64px 0; border-bottom: 1px solid var(--line); }
   h2 { font-size: 1.75rem; margin: 0 0 8px; }
   .kicker { text-transform: uppercase; letter-spacing: .12em; font-size: .75rem; font-weight: 600; color: var(--muted); margin: 0 0 6px; }
@@ -76,18 +86,24 @@
 <body>
 
 <header>
-  <div class="rings" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="rings-clip" aria-hidden="true"><div class="rings"><span></span><span></span><span></span></div></div>
   <div class="wrap">
     <img class="lockup" src="assets/lockup.png" alt="TagAlert">
     <h1>Is there an AirTag following me? <em>Find out now.</em></h1>
     <p class="lede">TagAlert is an iPhone app that finds nearby Apple AirTags in seconds and warns when one is traveling with you, without using your location.</p>
     <div class="btns">
-      <a class="btn-main" href="files/TagAlert_Final_Report.pdf">Read the report</a>
+      <details class="report-menu">
+        <summary class="btn-main">Read the report &#9662;</summary>
+        <div class="report-options">
+          <a href="files/TagAlert_Final_Report.pdf" target="_blank" rel="noopener">PDF<span>Opens in your browser</span></a>
+          <a href="files/TagAlert_Final_Report.docx" download>Word (.docx)<span>Downloads an editable copy</span></a>
+        </div>
+      </details>
       <a class="btn-ghost" href="files/TagAlert_Capstone_Poster.pdf">Poster</a>
       <a class="btn-ghost" href="files/TagAlert_Capstone_Presentation.pdf">Slides</a>
       <a class="btn-ghost" href="https://github.com/Hadik-UofA/TagAlert">Source on GitHub</a>
     </div>
-    <p class="meta">APCV 498 Senior Capstone, University of Arizona · Elizabeth Hadik-Barkoczy · Tested November 1 to 9, 2026</p>
+    <p class="meta"><strong>APCV 498 Senior Capstone</strong>, University of Arizona · <strong>Elizabeth Hadik-Barkoczy</strong> · Re-tested November 1&ndash;9, 2026</p>
   </div>
 </header>
 
